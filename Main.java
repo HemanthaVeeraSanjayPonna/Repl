@@ -9,7 +9,7 @@ public class Main {
      System.out.println(end-start);
 
      start=System.nanoTime();
-    Main.findNemo1(new String[] { "Dory","Bob","Patrick","Spongebob","Squidward","Timon","Pumba", "Nemo" });
+    Main.findNemo(new String[] { "Dory","Bob","Patrick","Spongebob","Squidward","Timon","Pumba", "Nemo" });
     end=System.nanoTime();
      System.out.println(end-start);
      
@@ -26,13 +26,5 @@ public class Main {
     
   }
 
-   public static void findNemo1(String[] array) {
-    
-    for (int i = 0; i < array.length; i++) {
-    if(array[i].equals("Nemo")){
-        System.out.println(array[i]);
-      }
-    }
-    
-  }
+
 }
